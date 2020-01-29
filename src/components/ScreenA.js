@@ -11,8 +11,8 @@ class ScreenA extends React.Component {
     super(props)
   }
 
-  onPress = () => {
-    this.props.dispatch(ActionCreators.applicationActions.screenPush(Screens.SCREEN2));
+  onPress = (nextScreen) => {
+    this.props.dispatch(ActionCreators.applicationActions.screenPush(nextScreen));
   }
 
   render() {
@@ -24,8 +24,13 @@ class ScreenA extends React.Component {
         </View>
 
         { /* PUSH SCREEN B BUTTON */}
-        <Button style={ styles.button } onPress={ ()=>{ this.onPress() }}>
+        <Button style={ styles.button } onPress={ ()=>{ this.onPress(Screens.SCREEN2) }}>
           <Text style={ styles.text }>{ 'Go to screen B' }</Text>
+        </Button>
+
+        { /* PUSH MAP SCREEN BUTTON */}
+        <Button style={ styles.button } onPress={ ()=>{ this.onPress(Screens.SCREEN3) }}>
+          <Text style={ styles.text }>{ 'Go to Map screen' }</Text>
         </Button>
       </View>
     )
@@ -57,7 +62,8 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     alignSelf: 'center',
     justifyContent: 'center',
-    paddingHorizontal: 20
+    paddingHorizontal: 20,
+    marginBottom: 10,
   }
 })
 

@@ -6,6 +6,7 @@ import { Screens } from './constants';
 import MainScreen from './components/MainScreen';
 import ScreenA from './components/ScreenA';
 import ScreenB from './components/ScreenB';
+import ScreenC from './components/ScreenC';
 import { Toast } from './utils/nativeModules';
 
 const mapStateToProps = (state) => {
@@ -43,6 +44,13 @@ class App extends React.Component {
 
   render() {
     switch (this.props.lastScreen) {
+      case Screens.SCREEN3:
+        return (
+          <MainScreen>
+            <ScreenC/>
+          </MainScreen>
+        )
+        
       case Screens.SCREEN2:
         return (
           <MainScreen>
