@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1071059944920",
+    "firebase_url": "https://nuland02.firebaseio.com",
+    "project_id": "nuland02",
+    "storage_bucket": "nuland02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071059944920:android:10f4242d9aba1e864f1ead",
+        "android_client_info": {
+          "package_name": "com.nuland02"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071059944920-36gsb1r2l489q087clvf3t2esgq1mj4n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nuland02",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "1071059944920-qd469kshacstc7gl4rsmidnocbnfi2l5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhYF-R4KUCbvU22Ppw9W1mQfVAvP8EBfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071059944920-qd469kshacstc7gl4rsmidnocbnfi2l5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

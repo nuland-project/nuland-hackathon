@@ -1,0 +1,6 @@
+// ACTION TYPES
+export const KARMA_CHANGE = 'KARMA_CHANGE';
+export const BALANCE_UPD = 'BALANCE_UPD';
+export const SCREEN_PUSH = 'SCREEN_PUSH';
+export const SCREEN_POP = 'SCREEN_POP';
+export const SCREEN_POP_PUSH = 'SCREEN_POP_PUSH';
